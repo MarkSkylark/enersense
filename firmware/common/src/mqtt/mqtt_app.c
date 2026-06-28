@@ -1,7 +1,7 @@
 #include "mqtt_app.h"
 #include "mqtt_client.h"
 #include "esp_log.h"
-#include "project_config.h"
+#include "config/project_config.h"
 #include "sensor/dht22.h" // Tarvitaan dht22_data_t rakenne
 
 static const char *TAG = "MQTT";

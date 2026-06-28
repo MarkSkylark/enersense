@@ -3,8 +3,4 @@ idf_component_register(SRCS "main.c"
                         "../firmware/common/src/network/wifi.c"
                         "../firmware/common/src/mqtt/mqtt_app.c"
                     INCLUDE_DIRS "."
-                                "../firmware/common/src"
-                                "../firmware/common/include/config"
-                                "../firmware/common/include/sensor"
-                                "../firmware/common/include/network"
-                                "../firmware/common/include/mqtt")
+                                "../firmware/common/src")

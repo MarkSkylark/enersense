@@ -1,7 +1,7 @@
 #include "dht22.h"
 #include "driver/gpio.h"
 #include "rom/ets_sys.h"
-#include "project_config.h"
+#include "config/project_config.h"
 
 static void dht22_start_signal(void) {
     gpio_set_direction(DHT22_GPIO_PIN, GPIO_MODE_OUTPUT);

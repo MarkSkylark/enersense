@@ -1,9 +1,9 @@
 #include "wifi.h"
 #include <string.h>
-#include "esp_wifi.h"
+#include "esp_wifi.h"z
 #include "esp_event.h"
 #include "esp_log.h"
-#include "project_config.h"
+#include "config/project_config.h"
 #include "mqtt/mqtt_app.h" // Mukaan, jotta voimme kutsua käynnistystä
 
 static const char *TAG = "WIFI";
