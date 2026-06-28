@@ -1,9 +1,10 @@
 idf_component_register(SRCS "main.c"
-                        "sensor/dht22.c"
-                        "network/wifi.c"
-                        "mqtt/mqtt_app.c"
+                        "../firmware/common/src/sensor/dht22.c"
+                        "../firmware/common/src/network/wifi.c"
+                        "../firmware/common/src/mqtt/mqtt_app.c"
                     INCLUDE_DIRS "."
-                                "config"
-                                "sensor"
-                                "network"
-                                "mqtt")
+                                "../firmware/common/src"
+                                "../firmware/common/include/config"
+                                "../firmware/common/include/sensor"
+                                "../firmware/common/include/network"
+                                "../firmware/common/include/mqtt")
